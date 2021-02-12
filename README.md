@@ -9,6 +9,10 @@ Women Health 360 Web Application for Microsoft Engage - WIT Hackathon
 
 https://womenhealth360.herokuapp.com
 
+# Screenshot :
+
+public/HomePage.png
+
 # Features:
 Workout Routine:
 This feature will allow the user to lodge their workout details. They can choose the type of exercise and enter details about regarding the duration, intensity etc. of the workout.

@@ -42,8 +42,8 @@ function populateChart(data) {
 
   let line = document.querySelector("#canvas").getContext("2d");
   let bar = document.querySelector("#canvas2").getContext("2d");
-  //let pie = document.querySelector("#canvas3").getContext("2d");
-  //let pie2 = document.querySelector("#canvas4").getContext("2d");
+  let pie = document.querySelector("#canvas3").getContext("2d");
+  let pie2 = document.querySelector("#canvas4").getContext("2d");
 
   // Create new line chart
   let lineChart = new Chart(line, {
@@ -149,7 +149,7 @@ function populateChart(data) {
   });
 
   // Create pie chart
-  /*let pieChart = new Chart(pie, {
+  let pieChart = new Chart(pie, {
     type: "pie",
     data: {
       labels: workouts,
@@ -167,9 +167,9 @@ function populateChart(data) {
         text: "Workouts Performed"
       }
     }
-  });*/
+  });
 
-  /*let donutChart = new Chart(pie2, {
+  let donutChart = new Chart(pie2, {
     type: "doughnut",
     data: {
       labels: workouts,
@@ -188,7 +188,7 @@ function populateChart(data) {
       }
     }
   });
-}*/
+}
 
 // Function to get Workout duration
 function duration(data) {

@@ -11,7 +11,7 @@ https://womenhealth360.herokuapp.com
 
 # Screenshot :
 
-public/HomePage.png
+|![Women Health 360](public/HomePage.png)
 
 # Features:
 Workout Routine:

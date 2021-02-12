@@ -20,7 +20,7 @@ nav {
   background-color: #7746b8;
   color: #ffffff;
   height: 50px;
-  padding: 5px;
+  padding: 0;
   line-height: 3;
   font-size: larger;
   font-weight: bolder;
@@ -44,7 +44,7 @@ a:visited {
 }
 
 header {
-  height: 140px;
+  height: 135px;
   padding-top: 40px;
   text-align: center;
   font-size: 1.5rem;

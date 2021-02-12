@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Women Health and Wellness</title>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav>
+    <div class="ui secondary menu navmenu">
+      <a class= "item navitem" href="/">Home</a>    
+      <div class="right menu">
+        <a class = "ui item navitem" href="/stats">Exercise Statistics</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <header>
+      <h1>Wellness Planner</h1>
+    </header>
+    <!-- Enter Planner Details -->
+    <div class="ui container parameters">
+      <div class="ui raised card m-auto">
+        <h2>Update Planner Details</h2>
+        <form action="POST">
+          <div class="medicines">
+            <label for="type">Medicine:</label>
+            <select name="type" id="type">
+              <option value="medicines">Enter Medicines</option>
+          </div>
+          <div class="blood-test">
+            <label for="type">Blood Test History:</label>
+            <select name="type" id="type">
+              <option value="blood-test">Enter Blood Test History</option>
+          </div>
+          <div class="buttons">
+            <button class="huge ui violet button complete">
+              Update Planner
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="toast">
+    Wellness Planner Updated!
+  </div>
+  <script src="./js/api.js"></script>
+  <script src="./js/planner.js"></script>
+</body>
+
+</html>
